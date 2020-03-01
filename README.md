@@ -1,0 +1,1 @@
+ `.\test.ps1` to run the file
