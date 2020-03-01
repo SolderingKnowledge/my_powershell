@@ -15,3 +15,13 @@ $myvar= @("first", "second", "third");
 $myvar= "first", "second", "third";
 
 for($a = 0; $a -lt $myvar.length; $a++){ $myvar[$a] };# here you don't have to type Write-Host
+
+# if else
+
+$x = 30
+
+if($x -le 20){# less than
+   write-host("Less than")
+}else {
+   write-host("Bigger than")# output would be Bigger than
+}
