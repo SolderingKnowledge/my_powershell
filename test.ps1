@@ -11,8 +11,10 @@ for($i=0; $i -lt 5; $i++){
 Write-Host $myvar # my var string
 
 # array can be declared this way too
-$myvar= @("first", "second", "third");
-$myvar= "first", "second", "third";
+$myarray1= @("first", "second", "third");
+$myarray2= "first", "second", "third";
+$myarray1;
+$myarray2;
 
 for($a = 0; $a -lt $myvar.length; $a++){ $myvar[$a] };# here you don't have to type Write-Host
 
