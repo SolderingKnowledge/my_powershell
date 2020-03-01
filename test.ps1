@@ -25,3 +25,16 @@ if($x -le 20){# less than
 }else {
    write-host("Bigger than")# output would be Bigger than
 }
+
+# hashtables or object in javascript
+
+$hash = { age = 1; name="John"; lastname = "Doe"}
+$hash;#  age = 1; name="John"; lastname = "Doe"
+
+$hash = @{ age = 1; name="John"; lastname = "Doe"}
+$hash;
+# Name                           Value
+# ----                           -----
+# name                           John
+# age                            1
+# lastname                       Doe
